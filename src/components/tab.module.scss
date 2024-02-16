@@ -1,0 +1,16 @@
+.tabSection {
+    height: 4rem;
+    width: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.selected {
+    color: red;
+    border-bottom: 2px solid red;
+}

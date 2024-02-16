@@ -1,0 +1,56 @@
+
+.container {
+    height: 3rem;
+    width: 100vw;
+    //border-bottom: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    .nameSection {
+        color: white;
+        width: 30vw;
+        text-align: start;
+    }
+
+    .orderSection {
+        width: 30vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        .myOrder {
+            color: #EEEEEE;
+            text-align: end;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        .iconSection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            width: 30px;
+
+            .circle {
+                position: absolute;
+                height: 15px;
+                width: 15px;
+                background-color: red;
+                border-radius: 50%;
+                top: 0;
+                right: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    color: white;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+}
