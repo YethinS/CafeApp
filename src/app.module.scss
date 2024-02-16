@@ -29,6 +29,17 @@
            
         }
 
+        @media only screen and (max-width: 767px) {
+            .categorySection {
+                overflow-x: scroll;
+                overflow-y: hidden;
+
+            }
+
+           
+
+        } 
+
         .dishCategorySection{
             height: 736px;
             width: 82vw;
